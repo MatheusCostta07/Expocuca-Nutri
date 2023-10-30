@@ -1,0 +1,169 @@
+body{
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #186e6c;
+    width: 100vw;
+    max-height: 200px;
+
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoinsta{
+    width: 80px;
+}
+
+.links{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.logonutri{
+    width: 120px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    font-size: 20px;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+
+ ul a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+ ul a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+.saibamais{
+    background-color: #ccd9ea;
+    height: 5vh;
+    width: 100vw;
+    border-bottom: 1px solid black ;
+    border-top: 1px solid black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.saibamais a{
+    color: #1a4188;
+}
+
+.divpai{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box1{
+    background-color: #0c7f8b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 100vh;
+    font-family: arial;
+}
+
+
+.box2{
+    background-color: #0c7f8b;
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 5vw;
+}
+
+.box2 h1{
+    font-size: 45px;
+    display: flex;
+    padding-left: 3vw;
+    padding-bottom: 3vh;
+    color: white;
+}
+
+.box2 p{
+    padding-left: 5vw;
+    margin-left: 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    color: white;
+}
+
+footer{
+    background-color: #186e6c;
+    width: 100vw;
+    height: 30vh;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoinsta2{
+    width: 80px;
+}
+
+.logonutri2{
+    width: 120px;
+}
